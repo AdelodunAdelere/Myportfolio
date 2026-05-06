@@ -1,0 +1,96 @@
+/* About.module.css */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* LEFT column */
+
+.heading {
+  font-family: var(--font-head);
+  font-size: clamp(34px, 4vw, 54px);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.0;
+  color: var(--white);
+  margin-bottom: 28px;
+}
+
+.bio {
+  color: var(--white-dim);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  max-width: 500px;
+}
+
+/* Skills chip row */
+.skillsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.chip {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 12px;
+  color: var(--white-dim);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.chip:hover {
+  border-color: var(--border-bright);
+  color: var(--white);
+}
+
+/* RIGHT column — stat rows */
+.right {
+  padding-top: 8px;
+}
+
+.statRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.statRow:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.statNum {
+  font-family: var(--font-head);
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: var(--white);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 13px;
+  color: var(--white-dim);
+  font-weight: 300;
+  text-align: right;
+  max-width: 160px;
+  line-height: 1.45;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 52px;
+  }
+}

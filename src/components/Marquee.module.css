@@ -1,0 +1,38 @@
+/* Marquee.module.css */
+
+.wrap {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--bg2);
+}
+
+.track {
+  display: inline-block;
+  animation: scroll linear infinite;
+  /* duration is set via inline style from the component */
+}
+
+.item {
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--white-dim);
+  font-weight: 400;
+  margin: 0 28px;
+}
+
+.item::before {
+  content: '✦';
+  margin-right: 28px;
+  color: var(--border-bright);
+  font-size: 8px;
+  vertical-align: middle;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
