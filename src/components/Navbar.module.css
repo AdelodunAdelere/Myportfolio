@@ -1,9 +1,9 @@
 /* Navbar.module.css */
 
 .nav {
-  position: sticky;
+  position: fixed;
   top: 0; left: 0; right: 0;
-  z-index: 1000;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +140,10 @@
 
 /* Mobile: hide centre links, keep logo + cta + menu */
 @media (max-width: 640px) {
-  .nav { padding: 20px var(--page-x); }
+   body {
+    padding-top: 72px;
+  }
+  .nav{ padding: 20px var(--page-x); }
   .links { display: none; }
   .menuButton { display: inline-flex; }
 }
