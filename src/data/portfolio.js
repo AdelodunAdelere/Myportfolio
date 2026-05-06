@@ -4,9 +4,6 @@
 // ============================================================
 
 import firstProjectImage from '../assets/first.png';
-import secondProjectImage from '../assets/Vampfi.jpg';
-import thirdProjectImage from '../assets/Filmo.png';
-
 
 export const personal = {
   name: "Adelodun Emmanuel Adelere",
@@ -108,25 +105,35 @@ export const projects = [
     link: "#",
     image: firstProjectImage,
   },
-  
   {
     id: 2,
+    title: "E-Commerce UI Overhaul",
+    description:
+      "Redesigned and implemented UI updates for an e-commerce platform, improving responsiveness and cross-device compatibility during internship at HIIT PLC.",
+    tags: ["React", "UI/UX", "E-Commerce"],
+    featured: true,
+    link: "#",
+    image: "https://picsum.photos/800/350?random=2",
+  },
+  
+  {
+    id: 3,
     title: "VampFi Product Launch Designs",
     description:
       "Created a suite of promotional and interface designs for product launches across digital platforms.",
     tags: ["Graphic Design", "Figma", "UI/UX"],
     featured: false,
-    link: "https://www.behance.net/gallery/231149539/Social-media-Designs-for-Vampfi-%28IT-company%29",
-    image: secondProjectImage,
+    link: "#",
+    image: "https://picsum.photos/800/350?random=3",
   },
   {
-    id: 3,
+    id: 4,
     title: "Filmo Real Estate Campaign",
     description:
       "Designed marketing assets and social media visuals that elevated brand visibility and engagement for a real estate company.",
     tags: ["Adobe Suite", "Social Media", "Branding"],
     featured: false,
-    link: "https://www.behance.net/gallery/231150555/Social-media-designs-%28Real-estate-company%29",
-    image: thirdProjectImage,
+    link: "#",
+    image: "https://picsum.photos/800/350?random=4",
   },
 ];
