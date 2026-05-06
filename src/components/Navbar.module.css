@@ -140,6 +140,7 @@
 
 /* Mobile: hide centre links, keep logo + cta + menu */
 @media (max-width: 640px) {
+  .nav { padding: 8px var(--page-x); }
   .links { display: none; }
   .menuButton { display: inline-flex; }
 }
