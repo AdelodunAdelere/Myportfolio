@@ -29,9 +29,12 @@
 
 /* Live iframe preview */
 .thumbIframe {
-  width: 200%;
-  height: 200%;
-  transform: scale(0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250%;
+  height: 250%;
+  transform: scale(0.4);
   transform-origin: top left;
   border: none;
   pointer-events: none;
