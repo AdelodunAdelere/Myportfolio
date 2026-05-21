@@ -27,6 +27,21 @@
   gap: 20px;
 }
 
+/* Live iframe preview */
+.thumbIframe {
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: top left;
+  border: none;
+  pointer-events: none;
+}
+
+.thumbOverlay {
+  position: absolute;
+  inset: 0;
+}
+
 /* Card */
 .card {
   background: var(--bg2);
