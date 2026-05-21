@@ -4,6 +4,7 @@
 // ============================================================
 
 import firstProjectImage from '../assets/first.png';
+import secondProjectImage from '../assets/second.png';
 
 export const personal = {
   name: "Adelodun Emmanuel Adelere",
@@ -16,13 +17,13 @@ export const personal = {
   email: "leredelodun@gmail.com",
   phone: "09032916948",
   linkedin: "https://linkedin.com", // update with your actual LinkedIn URL
-  portfolio: "#",                   // update with your actual portfolio URL
+  portfolio: "https://myportfolio-seven-xi-77.vercel.app",                   // update with your actual portfolio URL
   available: true,
 };
 
 export const skills = {
   design: ["UI/UX", "Graphic Design", "Figma", "Adobe Suite"],
-  development: ["React", "JavaScript", "SQL Database Management"],
+  development: ["React.js", "JavaScript", "TypeScript", "Node.js", "Express.js", "SQL Database Management"],
 };
 
 export const experience = [
@@ -97,23 +98,23 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce UI Overhaul",
+    title: "Educational Websites",
     description:
-      "Redesigned and implemented UI updates for an e-commerce platform, improving responsiveness and cross-device compatibility during internship at HIIT PLC.",
-    tags: ["React", "UI/UX", "E-Commerce"],
+      "Responsive music academy website with a student registration system.",
+    tags: ["React.js", "TypeScript", "tailwindcss", "vite"],
     featured: true,
     link: "#",
     image: firstProjectImage,
   },
   {
     id: 2,
-    title: "E-Commerce UI Overhaul",
+    title: "Business/Corporate Websites",
     description:
-      "Redesigned and implemented UI updates for an e-commerce platform, improving responsiveness and cross-device compatibility during internship at HIIT PLC.",
-    tags: ["React", "UI/UX", "E-Commerce"],
+      "Full-stack business website for a Nigerian event management company. Responsive React frontend with modular component architecture, and a Node.js/Express backend that handles booking submissions and triggers automated branded emails to both the business and client via Nodemailer",
+    tags: ["React.js", "Node.js", "Express", "Nodemailer", "vite"],
     featured: true,
     link: "#",
-    image: "https://picsum.photos/800/350?random=2",
+    image: secondProjectImage,
   },
   
   {
