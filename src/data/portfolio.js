@@ -103,17 +103,17 @@ export const projects = [
       "Responsive music academy website with a student registration system.",
     tags: ["React.js", "TypeScript", "tailwindcss", "vite"],
     featured: true,
-    link: "#",
+    link: "https://stephmusicacademy.netlify.app/",
     image: firstProjectImage,
   },
   {
     id: 2,
     title: "Business/Corporate Websites",
     description:
-      "Full-stack business website for a Nigerian event management company. Responsive React frontend with modular component architecture, and a Node.js/Express backend that handles booking submissions and triggers automated branded emails to both the business and client via Nodemailer",
+      "A responsive full-stack React frontend with modular components and a Node.js/Express backend for booking submissions, including automated branded email notifications to both the business and clients via Nodemailer.",
     tags: ["React.js", "Node.js", "Express", "Nodemailer", "vite"],
     featured: true,
-    link: "#",
+    link: "https://themadeplan.netlify.app/",
     image: secondProjectImage,
   },
   
