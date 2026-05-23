@@ -124,7 +124,7 @@ export const projects = [
       "Created a suite of promotional and interface designs for product launches across digital platforms.",
     tags: ["Graphic Design", "Figma", "UI/UX"],
     featured: false,
-    link: "#",
+    link: "https://www.behance.net/adelereadelodun",
     image: "https://picsum.photos/800/350?random=3",
   },
   {
@@ -134,7 +134,7 @@ export const projects = [
       "Designed marketing assets and social media visuals that elevated brand visibility and engagement for a real estate company.",
     tags: ["Adobe Suite", "Social Media", "Branding"],
     featured: false,
-    link: "#",
+    link: "https://www.behance.net/adelereadelodun",
     image: "https://picsum.photos/800/350?random=4",
   },
 ];
