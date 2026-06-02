@@ -98,6 +98,15 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
+    title: "E-commerce Website",
+    description:"A responsive full-stack e-commerce app built with Next.js, Supabase, and TypeScript, featuring product browsing, cart, checkout with Paystack payment integration, user authentication, order management, and automated transactional email notifications via Resend.",
+    tags: ["Next.js", "Supabase", "TypeScript", "Resend", "Tailwind CSS", "Zustand"],
+    featured: true,
+    link: "https://embellish-store.netlify.app/",
+    image: "thirdProjectImage",
+  },
+  {
+    id: 2,
     title: "Educational Websites",
     description:
       "Responsive music academy website with a student registration system.",
@@ -107,7 +116,7 @@ export const projects = [
     image: firstProjectImage,
   },
   {
-    id: 2,
+    id: 3,
     title: "Business/Corporate Websites",
     description:
       "A responsive full-stack React frontend with modular components and a Node.js/Express backend for booking submissions, including automated branded email notifications to both the business and clients via Nodemailer.",
@@ -118,7 +127,7 @@ export const projects = [
   },
   
   {
-    id: 3,
+    id: 4,
     title: "VampFi Product Launch Designs",
     description:
       "Created a suite of promotional and interface designs for product launches across digital platforms.",
@@ -128,7 +137,7 @@ export const projects = [
     image: "https://picsum.photos/800/350?random=3",
   },
   {
-    id: 4,
+    id: 5,
     title: "Filmo Real Estate Campaign",
     description:
       "Designed marketing assets and social media visuals that elevated brand visibility and engagement for a real estate company.",
