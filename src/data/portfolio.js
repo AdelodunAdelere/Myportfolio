@@ -99,7 +99,7 @@ export const projects = [
   {
     id: 1,
     title: "E-commerce Website",
-    description:"A responsive full-stack e-commerce app built with Next.js, Supabase, and TypeScript, featuring product browsing, cart, checkout with Paystack payment integration, user authentication, order management, and automated transactional email notifications via Resend.",
+    description:"E-commerce web app built with Next.js, Supabase, and TypeScript, featuring product browsing, cart, checkout with payment integration, user authentication, order management, and automated transactional email notifications via Resend.",
     tags: ["Next.js", "Supabase", "TypeScript", "Resend", "Tailwind CSS", "Zustand"],
     featured: true,
     link: "https://embellish-store.netlify.app/",
