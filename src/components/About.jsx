@@ -20,7 +20,7 @@ const stats = [
 ];
 
 // Flatten all skills into one list for the chip row
-const allSkills = [...skills.design, ...skills.development];
+const allSkills = [...skills.development, ...skills.design];
 
 export default function About() {
   const leftRef  = useReveal();
