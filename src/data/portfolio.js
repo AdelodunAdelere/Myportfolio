@@ -23,7 +23,7 @@ export const personal = {
 
 export const skills = {
   design: ["UI/UX", "Graphic Design", "Figma", "Adobe Suite"],
-  development: ["React.js", "JavaScript", "TypeScript", "Node.js", "Express.js", "SQL Database Management"],
+  development: ["React.js", "Next.js", "JavaScript", "TypeScript", "Node.js", "Express.js", "SQL Database Management"],
 };
 
 export const experience = [

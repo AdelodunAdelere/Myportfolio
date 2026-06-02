@@ -12,10 +12,10 @@
 import styles from './Marquee.module.css';
 
 const DEFAULT_ITEMS = [
-  'UI/UX Design',
-  'Graphic Design',
-  'React',
+  'React.js',
+  'Next.js',
   'JavaScript',
+  'UI/UX Design',
   'Figma',
   'Adobe Suite',
   'SQL Database Management',

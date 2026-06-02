@@ -72,7 +72,7 @@
 /* Thumbnail area */
 .thumb {
   width: 100%;
-  aspect-ratio: 16 / 7;
+  aspect-ratio: 16 / 9;
   background: var(--bg3);
   position: relative;
   overflow: hidden;
@@ -82,7 +82,7 @@
 }
 
 .featured .thumb {
-  aspect-ratio: 16 / 6;
+  aspect-ratio: 16 / 8;
 }
 
 /* Project image */
