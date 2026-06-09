@@ -107,16 +107,25 @@ export const projects = [
   },
   {
     id: 2,
+    title: "landing page",
+    description:"OrimindAI automation agency landing page, built with Next.js, TypeScript, Tailwind CSS v4, and Framer Motion. The landing page features a clean and modern design, with smooth animations and responsive layout.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    featured: true,
+    link: "https://orimind-ai.vercel.app/",
+    image: "thirdProjectImage",
+  },
+  {
+    id: 3,
     title: "Educational Websites",
     description:
-      "Responsive music academy website with a student registration system.",
+      "A responsive website for Nigeria's premier music school in Lagos, offering Piano, Guitar, Drums, Vocal Coaching, Violin, and Music Production — with an online student enrollment system.",
     tags: ["React.js", "TypeScript", "tailwindcss", "vite"],
     featured: true,
     link: "https://stephmusicacademy.netlify.app/",
     image: firstProjectImage,
   },
   {
-    id: 3,
+    id: 4,
     title: "Business/Corporate Websites",
     description:
       "A responsive full-stack React frontend with modular components and a Node.js/Express backend for booking submissions, including automated branded email notifications to both the business and clients via Nodemailer.",
@@ -125,9 +134,8 @@ export const projects = [
     link: "https://themadeplan.netlify.app/",
     image: secondProjectImage,
   },
-  
   {
-    id: 4,
+    id: 5,
     title: "VampFi Product Launch Designs",
     description:
       "Created a suite of promotional and interface designs for product launches across digital platforms.",
@@ -137,7 +145,7 @@ export const projects = [
     image: "https://picsum.photos/800/350?random=3",
   },
   {
-    id: 5,
+    id: 6,
     title: "Filmo Real Estate Campaign",
     description:
       "Designed marketing assets and social media visuals that elevated brand visibility and engagement for a real estate company.",
