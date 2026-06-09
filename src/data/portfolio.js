@@ -12,7 +12,7 @@ export const personal = {
   initials: "AEA",
   role: "Software Engineer & Product Designer",
   tagline: "Building interfaces that work — and feel good doing it.",
-  bio: "Results-driven Software Engineer & Product Designer with experience in UI design, graphics, and front-end web development. Skilled in delivering user-focused designs and functional digital solutions that improve business productivity. Strong collaborator, fast learner, and passionate about building, optimizing, and improving software products.",
+  bio: "Front-end-focused Software Engineer and Designer with a B.Sc. in Software Engineering and hands-on experience designing, building, and deploying responsive web applications in React, Next.js, TypeScript, JavaScript, and Node.js. Combines strong design expertise with a solid grounding in the software development life cycle (SDLC) to ship clean, maintainable, user-centered interfaces from concept through deployment. A fast learner and dependable collaborator who works effectively across remote, international teams",
   location: "Lagos, Nigeria",
   email: "leredelodun@gmail.com",
   phone: "09032916948",
