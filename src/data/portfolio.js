@@ -98,7 +98,16 @@ export const certifications = [
 export const projects = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Fintech SaaS web app",
+    description:"An AI-powered Nigerian investment platform that pulls live crypto, NGX stock, FX, and news data from the web and turns it into clean, source-backed, confidence-scored insights with TradingView charts, a cmdk command palette, and Paystack billing on Vercel. Features an AI insights feed, natural-language screener, live asset dashboards, sentiment radar, and a Portfolio IQ tool — all behind tiered, server-enforced paywalls.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL/Prisma", "Upstash Redis", "Auth.js", "Anthropic Claude API", "Vercel cron jobs", "TanStack Query"],
+    featured: true,
+    link: "https://investor-corridor.vercel.app/",
+    image: "",
+  },
+  {
+    id: 2,
+    title: "SaaS e-commerce Web app",
     description:"E-commerce web app built with Next.js, Supabase, and TypeScript, featuring product browsing, cart, checkout with payment integration, user authentication, order management, and automated transactional email notifications via Resend.",
     tags: ["Next.js", "Supabase", "TypeScript", "Resend", "Tailwind CSS", "Zustand"],
     featured: true,
@@ -106,7 +115,16 @@ export const projects = [
     image: "thirdProjectImage",
   },
   {
-    id: 2,
+    id: 3,
+    title: "SaaS e-commerce web app",
+    description:"A digital event seating-chart; find your seat service that hosts pay for, where guests look up their name and get their table from a Supabase database",
+    tags: ["Next.js", "Supabase", "TypeScript", "Tailwind CSS"],
+    featured: true,
+    link: "https://find-my-seat-belau.vercel.app",
+    image: "",
+  },
+  {
+    id: 4,
     title: "landing page",
     description:"OrimindAI automation agency landing page, built with Next.js, TypeScript, Tailwind CSS v4, and Framer Motion. The landing page features a clean and modern design, with smooth animations and responsive layout.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
@@ -115,7 +133,7 @@ export const projects = [
     image: "thirdProjectImage",
   },
   {
-    id: 3,
+    id: 5,
     title: "Educational Websites",
     description:
       "A responsive website for Nigeria's premier music school in Lagos, offering Piano, Guitar, Drums, Vocal Coaching, Violin, and Music Production — with an online student enrollment system.",
@@ -125,7 +143,7 @@ export const projects = [
     image: firstProjectImage,
   },
   {
-    id: 4,
+    id: 6,
     title: "Business/Corporate Websites",
     description:
       "A responsive full-stack React frontend with modular components and a Node.js/Express backend for booking submissions, including automated branded email notifications to both the business and clients via Nodemailer.",
@@ -135,7 +153,7 @@ export const projects = [
     image: secondProjectImage,
   },
   {
-    id: 5,
+    id: 7,
     title: "VampFi Product Launch Designs",
     description:
       "Created a suite of promotional and interface designs for product launches across digital platforms.",
@@ -145,7 +163,7 @@ export const projects = [
     image: "https://picsum.photos/800/350?random=3",
   },
   {
-    id: 6,
+    id: 8,
     title: "Filmo Real Estate Campaign",
     description:
       "Designed marketing assets and social media visuals that elevated brand visibility and engagement for a real estate company.",
