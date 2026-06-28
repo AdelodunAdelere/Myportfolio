@@ -6,6 +6,12 @@
     <meta name="description" content="Adelodun Emmanuel Adelere — Software Engineer & Product Designer based in Lagos, Nigeria." />
     <title>Adelere | Software Engineer & Product Designer</title>
     <link rel="icon" type="image/jpeg" href="/src/assets/Profile.JPG" />
+    <script>
+      // Default to light mode unless the user explicitly chose dark before.
+      if (localStorage.getItem('theme') !== 'dark') {
+        document.documentElement.classList.add('light-theme');
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -3,12 +3,15 @@ import { createContext, useContext, useState, useEffect } from 'react';
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const [isLightMode, setIsLightMode] = useState(false);
+  const [isLightMode, setIsLightMode] = useState(true);
 
   useEffect(() => {
-    // Check for saved theme preference
+    // Default to light mode unless the user explicitly chose dark before
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'light') {
+    if (savedTheme === 'dark') {
+      setIsLightMode(false);
+      document.documentElement.classList.remove('light-theme');
+    } else {
       setIsLightMode(true);
       document.documentElement.classList.add('light-theme');
     }

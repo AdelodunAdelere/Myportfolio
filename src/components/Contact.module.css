@@ -68,6 +68,10 @@
   font-weight: 300;
 }
 
+:global(.light-theme) .phone {
+  color: var(--white-dim);
+}
+
 .phone a {
   color: var(--white-dim);
   text-decoration: none;

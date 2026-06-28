@@ -217,6 +217,10 @@
   animation: fadeUp 0.8s 0.35s ease both;
 }
 
+:global(.light-theme) .location {
+  color: var(--white-dim);
+}
+
 /* Scroll hint */
 .scrollHint {
   position: absolute;
@@ -230,6 +234,10 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   animation: fadeUp 0.8s 0.5s ease both;
+}
+
+:global(.light-theme) .scrollHint {
+  color: var(--white-dim);
 }
 
 .scrollHint::after {

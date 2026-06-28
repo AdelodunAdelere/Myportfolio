@@ -145,6 +145,10 @@
   padding-top: 12px;
 }
 
+:global(.light-theme) .eduDivider {
+  color: var(--white-dim);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .timeline {
