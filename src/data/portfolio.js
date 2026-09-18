@@ -3,8 +3,6 @@
 // Edit this file to update any content on the site.
 // ============================================================
 
-import firstProjectImage from '../assets/first.png';
-import secondProjectImage from '../assets/second.png';
 import vampfiImage from '../assets/vampfi.jpg';
 import filmoImage from '../assets/filmo.png';
 
@@ -123,7 +121,7 @@ export const projects = [
     tags: ["Next.js", "Supabase", "TypeScript", "Resend", "Tailwind CSS", "Zustand"],
     featured: true,
     link: "https://embellish-store.netlify.app/",
-    image: "thirdProjectImage",
+    image: "",
   },
   {
     id: 4,
@@ -141,7 +139,7 @@ export const projects = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     featured: true,
     link: "https://orimind-ai.vercel.app/",
-    image: "thirdProjectImage",
+    image: "",
   },
   {
     id: 6,
@@ -151,7 +149,7 @@ export const projects = [
     tags: ["React.js", "TypeScript", "tailwindcss", "vite"],
     featured: true,
     link: "https://stephmusicacademy.netlify.app/",
-    image: firstProjectImage,
+    image: "",
   },
   {
     id: 7,
@@ -161,7 +159,7 @@ export const projects = [
     tags: ["React.js", "Node.js", "Express", "Nodemailer", "vite"],
     featured: true,
     link: "https://themadeplan.netlify.app/",
-    image: secondProjectImage,
+    image: "",
   },
   {
     id: 8,
