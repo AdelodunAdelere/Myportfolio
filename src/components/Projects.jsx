@@ -30,25 +30,24 @@ function ProjectCard({ title, description, tags, featured, link, image }) {
       rel="noopener noreferrer"
       className={`${styles.card} ${featured ? styles.featured : ''} reveal`}
     >
-      {/* Thumbnail */}
-      {/* Thumbnail */}
-<div className={styles.thumb}>
-  {link && link !== "#" ? (
-    <>
-      <iframe
-        src={link}
-        title={title}
-        className={styles.thumbIframe}
-        sandbox="allow-scripts allow-same-origin"
-        loading="lazy"
-        tabIndex={-1}
-      />
-      <div className={styles.thumbOverlay} />
-    </>
-    ) : (
-    <img src={image} alt={title} className={styles.thumbImage} />
-    )}
-    </div>
+      {/* Thumbnail — use the image when provided, otherwise a live preview of the link */}
+      <div className={styles.thumb}>
+        {image ? (
+          <img src={image} alt={title} className={styles.thumbImage} />
+        ) : link && link !== "#" ? (
+          <>
+            <iframe
+              src={link}
+              title={title}
+              className={styles.thumbIframe}
+              sandbox="allow-scripts allow-same-origin"
+              loading="lazy"
+              tabIndex={-1}
+            />
+            <div className={styles.thumbOverlay} />
+          </>
+        ) : null}
+      </div>
 
       {/* Body */}
       <div className={styles.body}>

@@ -2,12 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="Adelodun Emmanuel Adelere — Software Engineer & Product Designer based in Lagos, Nigeria." />
     <title>Adelere | Software Engineer & Product Designer</title>
     <link rel="icon" type="image/jpeg" href="/assets/Profile-D-r3Ippj.JPG" />
-    <script type="module" crossorigin src="/assets/index-DAvkY-ln.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-qxcutpGz.css">
+    <script>
+      // Default to light mode unless the user explicitly chose dark before.
+      if (localStorage.getItem('theme') !== 'dark') {
+        document.documentElement.classList.add('light-theme');
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DqiYPnkG.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DkPDGAY5.css">
   </head>
   <body>
     <div id="root"></div>
